@@ -14,11 +14,11 @@ class Queue {
 }
 
 const queue = new Queue();
-queue.enqueue("A");
-queue.enqueue("B");
-queue.enqueue("C");
-queue.enqueue("D");
-console.log("queue", queue);
+queue.enqueue('A');
+queue.enqueue('B');
+queue.enqueue('C');
+queue.enqueue('D');
+console.log('queue', queue);
 queue.dequeue();
-console.log("queue", queue);
-console.log("queue", queue.peek());
+console.log('queue', queue);
+console.log('queue', queue.peek());

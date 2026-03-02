@@ -14,11 +14,11 @@ class Stack {
 }
 
 const stack = new Stack();
-stack.push("A");
-stack.push("B");
-stack.push("C");
-stack.push("D");
-console.log("stack", stack);
+stack.push('A');
+stack.push('B');
+stack.push('C');
+stack.push('D');
+console.log('stack', stack);
 stack.pop();
-console.log("stack", stack);
-console.log("stack", stack.peek());
+console.log('stack', stack);
+console.log('stack', stack.peek());

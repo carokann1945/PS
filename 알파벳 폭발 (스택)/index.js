@@ -9,7 +9,7 @@ function solution(s) {
       flag = false;
     }
   }
-  return stack.join("");
+  return stack.join('');
 }
 
 function solution2(s) {
@@ -22,17 +22,17 @@ function solution2(s) {
       stack.push(char);
     }
   }
-  return stack.join("");
+  return stack.join('');
 }
 
-console.log(solution("infFflearn"));
-console.log(solution("aAbBcC"));
-console.log(solution("xYyX"));
-console.log(solution("a"));
-console.log(solution("Code"));
-console.log(solution("-1-1-1-1-1-1-1-1-1-"));
-console.log(solution2("infFflearn"));
-console.log(solution2("aAbBcC"));
-console.log(solution2("xYyX"));
-console.log(solution2("a"));
-console.log(solution2("Code"));
+console.log(solution('infFflearn'));
+console.log(solution('aAbBcC'));
+console.log(solution('xYyX'));
+console.log(solution('a'));
+console.log(solution('Code'));
+console.log(solution('-1-1-1-1-1-1-1-1-1-'));
+console.log(solution2('infFflearn'));
+console.log(solution2('aAbBcC'));
+console.log(solution2('xYyX'));
+console.log(solution2('a'));
+console.log(solution2('Code'));
