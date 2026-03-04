@@ -1,6 +1,6 @@
-const fs = require("fs");
+const fs = require('fs');
 
-const filePath = process.platform === "linux" ? "/dev/stdin" : "./input.txt";
+const filePath = fs.existsSync('./input.txt') ? './input.txt' : '/dev/stdin';
 const [Aline, Bline] = fs.readFileSync(filePath).toString().trim().split(/\s+/);
 
 const A = Number(Aline);
@@ -16,4 +16,4 @@ out.push(String(A * b10));
 out.push(String(A * b100));
 out.push(String(A * Number(B)));
 
-console.log(out.join("\n"));
+console.log(out.join('\n'));
